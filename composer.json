@@ -1,0 +1,21 @@
+{
+    "name": "pawan/pusherbyrepository",
+    "description": "This will send notification using pusher via repository",
+    "type": "library",
+    "require": {
+        "pusher/pusher-php-server": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pawan",
+            "email": "osp.work.pawan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "OspPawan\\PusherByRepository\\": "src/"
+        }
+    }
+}
