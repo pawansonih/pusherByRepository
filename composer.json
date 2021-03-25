@@ -16,5 +16,12 @@
         "psr-4": {
             "OspPawan\\PusherByRepository\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OspPawan\\PusherByRepository\\PusherByRepositoryServiceProvider"
+            ]
+        }
     }
 }
