@@ -18,13 +18,11 @@ class PusherBroadcastEvent implements ShouldBroadcast
      *
      * @return void
      */
-    public $username;
     public $message;
     public function __construct($username)
     {
 
-        $this->username = $username;
-        $this->message = $username." Liked you status";
+        $this->message = $username;
     }
 
     /**
