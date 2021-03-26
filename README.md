@@ -45,7 +45,7 @@ Must use below constructor in order to use PusherRepository
 ```
 Send boadcast notification to every user by using below line in the function
 
-```<?php
+```php
     $this->pusherRepository->broadcastNotification('Send you message here');
 
 ```
