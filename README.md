@@ -49,3 +49,6 @@ Send boadcast notification to every user by using below line in the function
     $this->pusherRepository->broadcastNotification('Send you message here');
 
 ```
+
+After sending you Broadcast Notification you can see all the notification here
+run ```php artisan serve --port=8001 ``` and open [http://127.0.0.1:8001/test-pusher](#)
